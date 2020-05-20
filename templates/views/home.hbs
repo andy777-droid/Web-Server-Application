@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Weather</title>
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
+    <link rel="icon" href='/img/logo2.jpg'>
+</head>
+
+<body>
+
+    <div class="main_info">
+        {{>header}}
+            <form id="form-1" class="f1">
+                <input spellcheck ="false" autocapitalize = "true" placeholder="location">
+                <button>Search</button>
+            </form>
+
+            <form id="form-2" class="f2">
+                <img id= "p8" src="">
+                <p id="p1"></p>
+                <p id="p2"></p>
+                <p id="p3"></p>
+                <p id="p4"></p>
+                <p id="p5"></p>
+                <p id="p6"></p>
+                <p id="p7"></p>
+                
+            </form>
+         
+    </div>
+
+    {{>footer}}
+    <script src="/js/app.js"></script>
+</body>
+
+</html>
