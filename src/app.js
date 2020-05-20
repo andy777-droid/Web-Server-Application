@@ -76,6 +76,7 @@ app.get('/weather', (req, res) => {
                 WindDirection: forecastData.Direction,
                 Time: forecastData.Day,
                 pic: forecastData.ImgSrc
+
             })
         })
     })
