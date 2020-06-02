@@ -4,6 +4,7 @@ const hbs = require('hbs')
 const geo = require('./utils/geocode')
 const weather = require('./utils/forecast')
 
+
 const app = express()
     //this is where the paths are defined
 const myPath = path.join(__dirname, '../public')
