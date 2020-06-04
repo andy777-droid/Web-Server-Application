@@ -40,9 +40,6 @@ weatherData.addEventListener('submit', (event) => {
             p7.textContent = 'Day = ' + data.Time
             document.getElementById("p8").src = data.pic;
 
-
-
-
         })
     })
 })
