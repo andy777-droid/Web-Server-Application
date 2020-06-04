@@ -39,7 +39,6 @@ weatherData.addEventListener('submit', (event) => {
             p6.textContent = 'Wind direction : ' + data.WindDirection
             p7.textContent = 'Day = ' + data.Time
             document.getElementById("p8").src = data.pic;
-
         })
     })
 })
